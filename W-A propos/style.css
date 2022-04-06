@@ -1,0 +1,143 @@
+@font-face{
+    font-family: font;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+
+}
+h1{
+    font-family: font;
+}
+body{ 
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+	background-color: #b11313;
+	display: flex;
+	justify-content: space-around;
+}
+header div{
+	display: flex;
+	align-items: center;
+
+}
+header div img{
+	margin: 20px 5px;
+}
+
+header div .img1,
+header div .img3{
+	height: 5vh;
+}
+header div .img2{
+	height: 3vh;
+}
+header nav{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 40%;
+}
+header nav a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	margin: 5%;
+	display: block;
+	font-size: 2.5vh;
+}
+
+.parti-jaune{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+}
+.toile-driiing{
+    color: #ffffff;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+.petite{
+    padding-left: 80px;
+    color: #ffffff;
+}
+.toile{
+    display: inline;
+    text-align: center;
+    margin: 5%;
+    color: white;
+}
+.listee{
+    padding-top: 150px;
+  
+    
+    
+}
+.listees{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    background-color: #B11313;
+    border-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    
+}
+
+h4 {
+    margin-left: 15px;
+}
+.ensemble{
+    display: flex;
+    padding: 0px;
+    
+}
+.long{
+    background-color: #114C92;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.type{
+    background-color: #114C92;
+    border-radius: 10px;
+    color: white;
+    margin-right: 200px;
+    border-color: #ffffff;
+}
+.titre01 {
+    color: #ffffff;
+    
+}
+footer{
+    background-color: #000000;
+    padding-bottom: 40px;
+}
+.footer{
+   
+    display: flex;
+    padding-top: 50px;
+    
+    
+}
+.footo{
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+.foot{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 30px;
+    padding-top: 80px;
+}
+.logo2{
+    background-color: #B11313;
+    margin-right: 30px;
+    border-radius: 100px;
+}
+.longo{
+    margin-left: 500px;
+    padding-top: 70px;
+}
